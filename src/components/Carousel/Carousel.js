@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Carousel({ children }) {
   const ITEM_WIDTH = 873;
+  // const ITEM_WIDTH = 768;
   const [offset, setOffset] = useState(0);
   const pagesCount = 3;
 

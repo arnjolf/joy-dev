@@ -8,6 +8,12 @@
   height: 858px;
 }
 
+@media (max-width: 1700px) {
+  .clover__hand-n-leaf {
+    right: 15px;
+  }
+}
+
 @media (max-width: 1439px) {
   .clover__hand-n-leaf {
     right: -70px;
