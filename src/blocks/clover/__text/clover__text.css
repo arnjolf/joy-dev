@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .clover__text {
     font-size: 18px;
     line-height: 29px;
@@ -17,11 +17,18 @@
     font-size: 24px;
     line-height: 43px;
     padding: 7px 0;
+    max-width: 295px;
   }
 }
 
-@media (max-width: 768px) {
-  .clover__text:first-of-type {
-    max-width: 295px;
+@media (max-width: 767px) {
+  .clover__text {
+    max-width: 192px;
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .clover__text:last-of-type {
+    font-size: 14px;
+    line-height: 25px;
   }
 }

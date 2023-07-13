@@ -13,3 +13,11 @@
     padding-top: 59px;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us__contacts {
+    max-width: none;
+    width: 100%;
+    padding-top: 40px;
+  }
+}

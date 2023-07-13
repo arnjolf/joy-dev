@@ -17,3 +17,12 @@
     height: 627px;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us__circle-img {
+    height: 228px;
+    width: 336px;
+    margin-left: 27px;
+    margin-bottom: 39px;
+  }
+}

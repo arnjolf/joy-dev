@@ -12,10 +12,17 @@
   gap: 18px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .development__list {
     gap: 25px;
     font-size: 20px;
     line-height: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .development__list {
+    font-size: 14px;
+    line-height: 22px;
   }
 }

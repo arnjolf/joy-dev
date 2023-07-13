@@ -8,3 +8,9 @@
     margin-bottom: 39px;
   }
 }
+
+@media (max-width: 767px) {
+  .form__input_idea {
+    margin-bottom: 28px;
+  }
+}

@@ -6,9 +6,16 @@
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .development__functions {
     padding-left: 63px;
     gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .development__functions {
+    gap: 20px;
+    padding-left: 26px;
   }
 }

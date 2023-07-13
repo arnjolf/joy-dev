@@ -14,6 +14,7 @@
 @import url(./blocks/header/__menu/header__menu.css);
 @import url(./blocks/header/__nav/header__nav.css);
 @import url(./blocks/header/__current-nav/header__current-nav.css);
+@import url(./blocks/header/__arrow/header__arrow.css);
 
 @import url(./blocks/clover/clover.css);
 @import url(./blocks/clover/__green-lines/clover__green-lines.css);

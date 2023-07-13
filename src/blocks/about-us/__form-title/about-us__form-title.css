@@ -15,3 +15,11 @@
     margin: 0 0 32px 0;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us__form-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+  }
+}

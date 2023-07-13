@@ -2,3 +2,10 @@
   width: 46px;
   height: 46px;
 }
+
+@media (max-width: 767px) {
+  .about-us__icon {
+    width: 32px;
+    height: 32px;
+  }
+}

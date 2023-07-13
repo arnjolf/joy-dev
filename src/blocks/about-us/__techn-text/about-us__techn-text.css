@@ -14,3 +14,10 @@
     line-height: 27px;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us__techn-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

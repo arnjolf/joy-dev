@@ -2,3 +2,9 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 767px) {
+  .development__list-element {
+    max-width: 268px;
+  }
+}

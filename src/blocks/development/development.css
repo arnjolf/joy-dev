@@ -3,8 +3,14 @@
   background-image: url("../../images/CloverBgTry.png");
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .development {
     padding: 84px 0px 74px;
+  }
+}
+
+@media (max-width: 767px) {
+  .development {
+    padding: 40px 0px 36px;
   }
 }

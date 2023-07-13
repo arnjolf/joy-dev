@@ -10,3 +10,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media (max-width: 767px) {
+  .form__input {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

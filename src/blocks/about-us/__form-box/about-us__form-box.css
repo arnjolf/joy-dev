@@ -16,3 +16,10 @@
     align-items: center;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us__form-box {
+    padding: 35px 26px 42px;
+    max-width: 288px;
+  }
+}

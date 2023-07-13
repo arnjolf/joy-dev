@@ -12,9 +12,17 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .clover__grey-lines {
     background-image: url("../../../images/GreyLines768.svg");
     bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .clover__grey-lines {
+    background-image: url("../../../images/GreyLines320.svg");
+    height: 535px;
+    bottom: -2px;
   }
 }

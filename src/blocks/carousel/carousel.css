@@ -4,8 +4,14 @@
   margin-bottom: 73px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .carousel {
     margin-bottom: 108px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    margin-bottom: 67px;
   }
 }

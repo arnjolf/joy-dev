@@ -9,9 +9,16 @@
   padding: 0 70px 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .carousel__item {
     padding: 0 63px 66px;
     gap: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel__item {
+    padding: 0 26px 32px;
+    gap: 26px;
   }
 }

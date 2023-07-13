@@ -4,8 +4,15 @@
   width: 100%;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .benefits__screenshot {
     height: 283px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__screenshot {
+    height: 264px;
+    width: 127px;
   }
 }

@@ -14,3 +14,12 @@
     margin: 0 0 34px 0;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us__form-subtitle {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: 0 0 26px 0;
+  }
+}

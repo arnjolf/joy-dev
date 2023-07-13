@@ -9,7 +9,7 @@
   padding-bottom: 40px;
 }
 
-@media (max-width: 1116px) {
+@media (max-width: 1439px) {
   .prototypes__list-box {
     padding-bottom: 56px;
   }
@@ -17,6 +17,6 @@
 
 @media (max-width: 767px) {
   .prototypes__list-box {
-    padding-bottom: 21px;
+    padding-bottom: 17px;
   }
 }

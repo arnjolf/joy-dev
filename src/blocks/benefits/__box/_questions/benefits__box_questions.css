@@ -1,3 +1,9 @@
 .benefits__box_questions {
   display: flex;
 }
+
+@media (max-width: 767px) {
+  .benefits__box_questions {
+    display: block;
+  }
+}

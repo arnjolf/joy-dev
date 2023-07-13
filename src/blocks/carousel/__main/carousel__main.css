@@ -6,3 +6,9 @@
   width: 100%;
   margin: 0 auto 27px;
 }
+
+@media (max-width: 767px) {
+  .carousel__main {
+    margin: 0 auto;
+  }
+}

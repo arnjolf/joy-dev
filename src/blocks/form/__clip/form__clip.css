@@ -9,3 +9,11 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 767px) {
+  .form__clip {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+}

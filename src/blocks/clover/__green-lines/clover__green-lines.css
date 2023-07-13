@@ -11,9 +11,17 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .clover__green-lines {
     background-image: url("../../../images/GreenLines768.svg");
     height: 1000px;
+  }
+}
+
+@media (max-width: 767px) {
+  .clover__green-lines {
+    background-image: url("../../../images/GreenLines320.svg");
+    height: 451px;
+    top: -56px;
   }
 }

@@ -6,8 +6,15 @@
   max-width: 452px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .clover__header {
     gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .clover__header {
+    padding-top: 0;
+    gap: 8px;
   }
 }

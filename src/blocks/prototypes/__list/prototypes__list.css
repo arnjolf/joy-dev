@@ -12,7 +12,7 @@
   text-align: left;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .prototypes__list {
     gap: 20px;
     font-size: 20px;
@@ -27,5 +27,6 @@
     line-height: 22px;
     padding-left: 20px;
     gap: 10px;
+    margin-top: 0;
   }
 }

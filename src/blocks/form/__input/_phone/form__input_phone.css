@@ -4,3 +4,9 @@
     margin-bottom: 34px;
   }
 }
+
+@media (max-width: 767px) {
+  .form__input_phone {
+    margin-bottom: 24px;
+  }
+}

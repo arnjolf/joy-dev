@@ -11,3 +11,9 @@
     margin: 0 0 33px 0;
   }
 }
+
+@media (max-width: 727px) {
+  .form__input_name {
+    margin: 0 0 25px 0;
+  }
+}

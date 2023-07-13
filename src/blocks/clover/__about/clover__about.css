@@ -5,8 +5,14 @@
   max-width: 452px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .clover__about {
     gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .clover__about {
+    gap: 17px;
   }
 }

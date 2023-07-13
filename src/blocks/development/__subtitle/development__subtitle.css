@@ -8,9 +8,17 @@
   margin: 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .development__subtitle {
     font-size: 32px;
     line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .development__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -10px;
   }
 }

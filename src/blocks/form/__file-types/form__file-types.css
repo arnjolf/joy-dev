@@ -13,3 +13,11 @@
     margin: 3px 0 45px;
   }
 }
+
+@media (max-width: 767px) {
+  .form__file-types {
+    font-size: 10px;
+    line-height: 16px;
+    margin: 7px 0 24px;
+  }
+}

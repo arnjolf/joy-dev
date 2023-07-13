@@ -26,14 +26,13 @@ export default function Form() {
       <p className="form__file-types">
         Пожалуйста, загрузите файл формата: .pdf, .docx, .odt, .ods, .xls/x,.txt
       </p>
-      <label class="form__checkbox">
-        <input
-          type="checkbox"
-          className="form__checkbox-label"
-          value="value-1"
-        ></input>
-        <span>Indigo</span>
-      </label>
+      {/* <label class="form__checkbox"> */}
+      {/* <input
+        type="checkbox"
+        className="form__checkbox-label"
+        value="value-1"
+      ></input> */}
+      {/* </label> */}
       <p className="form__accept-politics">
         Я принимаю&nbsp;
         <a href="#" className="form__politics">

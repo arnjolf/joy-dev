@@ -12,8 +12,14 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .clover {
     height: 1318px;
+  }
+}
+
+@media (max-width: 767px) {
+  .clover {
+    height: 589px;
   }
 }

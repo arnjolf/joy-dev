@@ -5,3 +5,10 @@
   background-color: orange;
   margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+  .carousel__buttons {
+    height: 12px;
+    width: 40px;
+  }
+}

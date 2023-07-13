@@ -15,6 +15,6 @@
 
 @media (max-width: 767px) {
   .header__nav {
-    padding: 9px 16px;
+    padding: 5px 16px 9px;
   }
 }

@@ -16,11 +16,11 @@ export default function Header() {
         <ul className="header__current-nav">
           <li className="header__nav-text">Главная</li>
           <li>
-            <img src={Arrow} alt="Стрелочка" />
+            <img src={Arrow} alt="Стрелочка" className="header__arrow" />
           </li>
           <li className="header__nav-text">Кейсы</li>
           <li>
-            <img src={Arrow} alt="Стрелочка" />
+            <img src={Arrow} alt="Стрелочка" className="header__arrow" />
           </li>
           <li className="header__nav-text">Clover Research</li>
         </ul>

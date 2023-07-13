@@ -13,3 +13,11 @@
     height: 140px;
   }
 }
+
+@media (max-width: 767px) {
+  .clover__title {
+    width: 171px;
+    height: 73px;
+    top: -309px;
+  }
+}

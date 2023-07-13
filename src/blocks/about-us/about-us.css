@@ -7,3 +7,9 @@
     padding: 54px 0 56px;
   }
 }
+
+@media (max-width: 767px) {
+  .about-us {
+    padding: 35px 0 37px;
+  }
+}

@@ -11,15 +11,10 @@
   padding: 0 63px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .clover__content {
     gap: 30px;
-    margin: 0 auto 114px;
-  }
-}
-
-@media (max-width: 1220px) {
-  .clover__content {
+    margin: 0 auto 39px;
     flex-direction: column;
     gap: 15px;
   }
@@ -28,5 +23,6 @@
 @media (max-width: 767px) {
   .clover__content {
     margin: 0 auto 39px;
+    padding: 0 26px;
   }
 }
