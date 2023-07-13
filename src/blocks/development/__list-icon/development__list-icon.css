@@ -1,0 +1,13 @@
+.development__list-icon {
+  width: 66px;
+  height: 66px;
+  margin-right: 40px;
+}
+
+@media (max-width: 1440px) {
+  .development__list-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+}

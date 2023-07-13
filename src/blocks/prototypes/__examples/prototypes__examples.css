@@ -1,0 +1,22 @@
+.prototypes__examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 115px;
+  width: 100%;
+  max-width: 1272px;
+  margin: 0px auto 27px;
+}
+
+@media (max-width: 1440px) {
+  .prototypes__examples {
+    gap: 55px;
+    margin: 0px auto 68px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototypes__examples {
+    gap: 23px;
+    margin: 0px auto 48px;
+  }
+}

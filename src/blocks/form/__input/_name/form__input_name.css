@@ -1,0 +1,13 @@
+.form__input_name {
+  max-width: 300px;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 61px;
+}
+
+@media (max-width: 1439px) {
+  .form__input_name {
+    max-width: none;
+    margin: 0 0 33px 0;
+  }
+}

@@ -1,0 +1,31 @@
+.prototypes__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0;
+  margin-top: -6px;
+  padding-left: 33px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 1440px) {
+  .prototypes__list {
+    gap: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototypes__list {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 20px;
+    gap: 10px;
+  }
+}

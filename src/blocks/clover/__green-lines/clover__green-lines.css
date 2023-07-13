@@ -1,0 +1,19 @@
+.clover__green-lines {
+  position: absolute;
+  max-width: 1920px;
+  width: 100%;
+  z-index: 1;
+  background-image: url("../../../images/GreenLines.png");
+  background-position: top center;
+  background-size: cover;
+  height: 1200px;
+  top: -25px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .clover__green-lines {
+    background-image: url("../../../images/GreenLines768.svg");
+    height: 1000px;
+  }
+}

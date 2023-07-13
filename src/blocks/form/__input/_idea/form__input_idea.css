@@ -1,0 +1,10 @@
+.form__input_idea {
+  width: 100%;
+  margin-bottom: 41px;
+}
+
+@media (max-width: 1439px) {
+  .form__input_idea {
+    margin-bottom: 39px;
+  }
+}

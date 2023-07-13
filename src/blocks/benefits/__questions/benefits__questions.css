@@ -1,0 +1,23 @@
+.benefits__questions {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 459px;
+  justify-self: flex-start;
+}
+
+@media (max-width: 1393px) {
+  .benefits__questions {
+    gap: 30px;
+    max-width: 346px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__questions {
+    gap: 10px;
+    margin-bottom: 51px;
+  }
+}

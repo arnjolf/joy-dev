@@ -1,0 +1,12 @@
+.prototypes {
+  background-image: linear-gradient(115.06deg, #f3fcf3 6.96%, #fef6e8 96.48%);
+  position: relative;
+  z-index: 20;
+  padding: 0 63px;
+}
+
+@media (max-width: 767px) {
+  .prototypes {
+    padding: 0 26px;
+  }
+}

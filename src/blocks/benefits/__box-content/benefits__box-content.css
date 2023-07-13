@@ -1,0 +1,27 @@
+.benefits__box-content {
+  position: relative;
+  top: -20px;
+  left: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 478px;
+  justify-self: flex-end;
+}
+
+@media (max-width: 1439px) {
+  .benefits__box-content {
+    max-width: 334px;
+    gap: 37px;
+    top: -7px;
+    left: -13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__box-content {
+    gap: 20px;
+    order: 1;
+    margin-bottom: 15px;
+  }
+}

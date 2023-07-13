@@ -1,0 +1,26 @@
+.benefits__text {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  width: fit-content;
+}
+
+@media (max-width: 1439px) {
+  .benefits__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,12 @@
+.clover__leaf {
+  position: absolute;
+  left: -95px;
+  top: -110px;
+  z-index: 0;
+}
+
+@media (max-width: 1440px) {
+  .clover__leaf {
+    display: none;
+  }
+}

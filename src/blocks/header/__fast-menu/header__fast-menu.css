@@ -1,0 +1,12 @@
+.header__fast-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .header__fast-menu {
+    gap: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+.about-us__techn {
+  max-width: 372px;
+  position: absolute;
+  padding: 32px;
+  box-shadow: 0px 40px 40px 0px #afafaf40;
+  background-color: white;
+  box-sizing: border-box;
+  top: 32px;
+  right: 109px;
+}
+
+@media (max-width: 1439px) {
+  .about-us__techn {
+    right: 96px;
+    top: -52px;
+  }
+}

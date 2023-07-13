@@ -1,0 +1,16 @@
+.prototype__example {
+  width: 100%;
+  margin-top: -37px;
+}
+
+@media (max-width: 1440px) {
+  .prototype__example {
+    margin-top: -59px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototype__example {
+    margin-top: -17px;
+  }
+}

@@ -1,0 +1,25 @@
+.benefits__icon-group {
+  position: absolute;
+  top: -130px;
+  right: -55px;
+  width: 457px;
+  height: 261px;
+}
+
+@media (max-width: 1439px) {
+  .benefits__icon-group {
+    width: 317px;
+    height: 180px;
+    top: -80px;
+    right: -59px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__icon-group {
+    width: 231px;
+    height: 98px;
+    top: -78px;
+    right: 12px;
+  }
+}

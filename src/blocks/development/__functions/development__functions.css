@@ -1,0 +1,14 @@
+.development__functions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .development__functions {
+    padding-left: 63px;
+    gap: 30px;
+  }
+}

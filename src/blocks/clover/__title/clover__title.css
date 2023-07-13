@@ -1,0 +1,15 @@
+.clover__title {
+  position: absolute;
+  z-index: 11;
+  top: -730px;
+  width: 617px;
+  height: 247px;
+}
+
+@media (max-width: 1439px) {
+  .clover__title {
+    top: -487px;
+    width: 323px;
+    height: 140px;
+  }
+}

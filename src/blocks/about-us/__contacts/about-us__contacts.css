@@ -1,0 +1,15 @@
+.about-us__contacts {
+  display: flex;
+  flex-direction: column;
+  max-width: 511px;
+  padding-top: 38px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .about-us__contacts {
+    align-items: center;
+    padding-top: 59px;
+  }
+}

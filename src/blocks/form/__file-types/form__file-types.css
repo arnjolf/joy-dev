@@ -1,0 +1,15 @@
+.form__file-types {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 9px 0 41px;
+  opacity: 0.7;
+}
+
+@media (max-width: 1439px) {
+  .form__file-types {
+    margin: 3px 0 45px;
+  }
+}

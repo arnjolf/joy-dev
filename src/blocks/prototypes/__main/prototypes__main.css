@@ -1,0 +1,18 @@
+.prototypes__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 112px 0;
+}
+
+@media (max-width: 1440px) {
+  .prototypes__main {
+    margin: 0 0 66px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototypes__main {
+    margin: 0 0 50px 0;
+  }
+}

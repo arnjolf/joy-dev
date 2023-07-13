@@ -1,0 +1,36 @@
+.clover__hand-n-leaf {
+  position: absolute;
+  right: 185px;
+  top: 175px;
+  z-index: 2;
+  object-fit: contain;
+  width: 651px;
+  height: 858px;
+}
+
+@media (max-width: 1680px) {
+  .clover__hand-n-leaf {
+    top: 190px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .clover__hand-n-leaf {
+    right: -70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .clover__hand-n-leaf {
+    width: 485px;
+    height: 618px;
+    top: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  .clover__hand-n-leaf {
+    right: -123px;
+    top: 283px;
+  }
+}

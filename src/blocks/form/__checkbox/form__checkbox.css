@@ -1,0 +1,32 @@
+.form__checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 1;
+}
+
+.form__checkbox > span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.form__checkbox > span::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #007ffe;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox > input:checked + span::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("../../../images/checkBox.svg");
+}

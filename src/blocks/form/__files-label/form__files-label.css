@@ -1,0 +1,10 @@
+.form__files-label {
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  opacity: 0.7;
+}

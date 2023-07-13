@@ -1,0 +1,21 @@
+.prototypes__box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 118px;
+}
+
+@media (max-width: 1116px) {
+  .prototypes__box-content {
+    margin-top: 0;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototypes__box-content {
+    margin-bottom: 37px;
+    gap: 20px;
+  }
+}

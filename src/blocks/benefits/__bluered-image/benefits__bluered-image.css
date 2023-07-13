@@ -1,0 +1,21 @@
+.benefits__bluered-image {
+  display: block;
+  position: relative;
+  left: -30px;
+  max-width: 598px;
+  height: 790px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .benefits__bluered-image {
+    height: auto;
+    left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__bluered-image {
+    order: 2;
+  }
+}

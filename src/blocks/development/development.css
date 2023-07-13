@@ -1,0 +1,10 @@
+.development {
+  padding: 109px 63px 96px;
+  background-image: url("../../images/CloverBgTry.png");
+}
+
+@media (max-width: 768px) {
+  .development {
+    padding: 84px 0px 74px;
+  }
+}

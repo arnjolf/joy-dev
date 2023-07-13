@@ -1,0 +1,16 @@
+.development__subtitle {
+  color: #363b46;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .development__subtitle {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}

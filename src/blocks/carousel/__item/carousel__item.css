@@ -1,0 +1,17 @@
+.carousel__item {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  max-width: 873px;
+  width: 100%;
+  justify-content: space-between;
+  gap: 65px;
+  padding: 0 70px 60px;
+}
+
+@media (max-width: 768px) {
+  .carousel__item {
+    padding: 0 63px 66px;
+    gap: 58px;
+  }
+}

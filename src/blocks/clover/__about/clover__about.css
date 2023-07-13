@@ -1,0 +1,12 @@
+.clover__about {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 452px;
+}
+
+@media (max-width: 1440px) {
+  .clover__about {
+    gap: 30px;
+  }
+}

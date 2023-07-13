@@ -1,0 +1,11 @@
+.form__clip {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1439px) {
+  .form__clip {
+    margin-right: 0;
+  }
+}

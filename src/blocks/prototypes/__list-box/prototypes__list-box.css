@@ -1,0 +1,22 @@
+.prototypes__list-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1272px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1116px) {
+  .prototypes__list-box {
+    padding-bottom: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototypes__list-box {
+    padding-bottom: 21px;
+  }
+}

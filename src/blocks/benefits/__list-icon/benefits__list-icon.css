@@ -1,0 +1,19 @@
+.benefits__list-icon {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 27px;
+}
+
+@media (max-width: 1439px) {
+  .benefits__list-icon {
+    margin-right: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__list-icon {
+    margin-right: 15px;
+    max-width: 32px;
+    max-height: 32px;
+  }
+}

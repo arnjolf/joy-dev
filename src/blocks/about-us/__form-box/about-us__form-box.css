@@ -1,0 +1,18 @@
+.about-us__form-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  padding: 38px 39px 40px;
+  max-width: 647px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .about-us__form-box {
+    padding: 40px 101px 47px;
+    max-width: 720px;
+    align-items: center;
+  }
+}

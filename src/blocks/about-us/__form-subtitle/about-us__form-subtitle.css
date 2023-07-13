@@ -1,0 +1,16 @@
+.about-us__form-subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 55px 0;
+}
+
+@media (max-width: 1439px) {
+  .about-us__form-subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 34px 0;
+  }
+}

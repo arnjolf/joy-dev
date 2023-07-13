@@ -1,0 +1,10 @@
+.prototypes__board-image {
+  width: 100%;
+  max-width: 482px;
+}
+
+@media (max-width: 1116px) {
+  .prototypes__board-image {
+    max-width: 100%;
+  }
+}

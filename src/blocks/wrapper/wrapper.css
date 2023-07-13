@@ -1,0 +1,8 @@
+.wrapper {
+  margin: 0px auto;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 2;
+  font-family: Gotham;
+}

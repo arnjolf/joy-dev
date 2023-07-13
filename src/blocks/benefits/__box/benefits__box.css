@@ -1,0 +1,25 @@
+.benefits__box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+  max-width: 1280px;
+  margin: 0 auto;
+  place-content: space-between;
+  place-items: center;
+}
+
+.benefits__box:first-of-type {
+  margin-bottom: 130px;
+}
+
+@media (max-width: 1439px) {
+  .benefits__box:first-of-type {
+    margin-bottom: 135px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__box:first-of-type {
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,8 @@
+.carousel__all-img {
+  position: relative;
+  z-index: 9;
+  height: 100%;
+  display: flex;
+  transition: all 0.8s ease-out;
+  user-select: none;
+}

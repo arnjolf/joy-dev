@@ -1,0 +1,19 @@
+.benefits__screenshots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+@media (max-width: 1439px) {
+  .benefits__screenshots {
+    gap: 13px;
+    margin-bottom: -83px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__screenshots {
+    margin-bottom: 0;
+    gap: 15px;
+  }
+}

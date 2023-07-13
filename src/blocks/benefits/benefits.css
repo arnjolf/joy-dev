@@ -1,0 +1,16 @@
+.benefits {
+  background-color: #292f3b;
+  padding: 69px 63px 190px;
+}
+
+@media (max-width: 1439px) {
+  .benefits {
+    padding: 66px 63px 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits {
+    padding: 35px 26px 70px;
+  }
+}

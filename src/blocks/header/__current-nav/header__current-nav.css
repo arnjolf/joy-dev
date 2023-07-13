@@ -1,0 +1,29 @@
+.header__current-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  height: 25px;
+}
+
+@media (max-width: 1919px) {
+  .header__current-nav {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__current-nav {
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    gap: 10px;
+  }
+}

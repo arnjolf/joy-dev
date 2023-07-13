@@ -1,0 +1,11 @@
+.benefits__screenshot {
+  width: 335px;
+  height: 724px;
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .benefits__screenshot {
+    height: 283px;
+  }
+}

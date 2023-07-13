@@ -1,0 +1,15 @@
+.carousel__item-content {
+  box-shadow: -40px 40px 40px 0px #afafaf40;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.carousel__item-content:last-child {
+  box-shadow: 0px 40px 40px 0px #afafaf40;
+}
+
+@media (max-width: 768px) {
+  .carousel__item-content {
+    max-width: 292px;
+  }
+}

@@ -1,0 +1,23 @@
+.prototypes__title {
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #89a939;
+  margin: 0 0 21px 0;
+}
+
+@media (max-width: 1440px) {
+  .prototypes__title {
+    font-size: 96px;
+    margin: 0 0 34px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .prototypes__title {
+    font-size: 36px;
+    line-height: 32px;
+    margin: 0 0 20px 0;
+  }
+}
